@@ -1,4 +1,5 @@
-AKTEvaluation - New Developers
+AKTEvaluation -  Front-End Developers
 =============
 
-Please choose the correct branch that was given to you.
+This evaluation will test your HTML, CSS, Javascript and minor PHP/MySQL chops.
+
