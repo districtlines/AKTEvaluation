@@ -21,7 +21,13 @@
 			</div>
 			<div class="panel-body">
 				<ol>
-					<li>The navigation links are broken. Make them work so they jump to the correct locations.</li>
+					<li>
+						Navigation adjustments (Uses: HTML/Bootstrap)
+						<ol>
+							<li>The navigation links are broken. Make them work so they jump to the correct locations.</li>
+							<li>The navigation should be a sticky nav. Keep the nav at the top as you scroll down the page.</li>
+						</ol>
+					</li>
 					<li>
 						On Mobile Devices (bootstrap xs size), adjust the form to be more compact. (Uses: HTML/CSS)
 						<ul>
@@ -45,6 +51,14 @@
 							<li>The color effect should have a fade of 0.3 seconds.</li>
 							<li>The table headers should alter cell color; every other header element should have '#e5e5e5' as their background color.</li>
 							<li>You should create a custom CSS file to make CSS changes.</li>
+						</ul>
+					</li>
+					<li>
+						Today's date in the nav (Uses: PHP/Bootstrap-HTML)
+						<ul>
+							<li>Use the classes/main.php file to create the PHP code.</li>
+							<li>Then use the view that has the navbar html and echo the date on the right side of the navbar.</li>
+							<li><mark>Hint:</mark> Review the code in the view you are working in on how to extract your data.</li>
 						</ul>
 					</li>
 					<li>

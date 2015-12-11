@@ -3,10 +3,23 @@
 	class Evaluation {
 		public $content;
 		public $countries;
+		public $navBrand;
 		public $defaultEmail;
+		public $todaysDate;
 
 		public function __construct() {
 			$this->countries = include_once dirname(__DIR__) . '/configs/countries.php';
+			$this->navBrand = 'AKT | Front-End';
+
+			/**
+			 * Starting below this docBlock, set the variable todaysDate to the current date in the following format:
+			 * {textualRepresntation of dayOfTheWeek-fullName}, {month-fullName} {dayOfTheMonth-noLeadingZeros}{englishOrdinalSuffix} {year-4Digits}
+			 * IE: Friday, February 26th 2010
+			 *
+			 * @var User friendly today's date.
+			 * @access public
+			 */
+
 
 
 			/**

@@ -1,6 +1,6 @@
 <div class="container">
-	<h2>Add a new user</h2>
 	<form id="form">
+		<h2>Add a new user</h2>
 		<div class="row">
 			<div class="col-xs-12">
 				<div class="form-group">
