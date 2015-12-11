@@ -22,21 +22,26 @@
 			<div class="panel-body">
 				<ol>
 					<li>
-						Navigation adjustments (Uses: HTML/Bootstrap)
+						Navigation adjustments <span class="label label-info">(Uses: HTML/Bootstrap)</span>
 						<ol>
 							<li>The navigation links are broken. Make them work so they jump to the correct locations.</li>
 							<li>The navigation should be a sticky nav. Keep the nav at the top as you scroll down the page.</li>
 						</ol>
 					</li>
 					<li>
-						On Mobile Devices (bootstrap xs size), adjust the form to be more compact. (Uses: HTML/CSS)
+						On Mobile Devices (bootstrap xs size), compact form elements. <span class="label label-info">(Uses: Bootstrap-HTML)</span>
 						<ul>
-							<li>Put <mark>city</mark>, <mark>state/province</mark> and <mark>zip</mark> all on the same line. Without adding any more form elements. It should be pure CSS with styles and classes and structural HTML elements.</li>
+							<li>Put <mark>city</mark>, <mark>state/province</mark> and <mark>zip</mark> all on the same line. Without adding additional form elements. <mark>Hint:</mark> Bootstrap has some nice features to do this for you without writing any extra CSS.</li>
 						</ul>
 					</li>
-					<li>The Stored Data table is breaking the layout on Mobile. Make the table responsive. <mark>(Remember, Bootstrap!)</mark></li>
 					<li>
-						Add iDangerous Swiper carousel (Uses: HTML/CSS/JS maybe PHP)
+						Responsive table <span class="label label-info">(Uses: Bootstrap-HTML)</span>
+						<ul>
+							<li>The Stored Data table is breaking the layout on Mobile. Make the table responsive. <mark>(Remember, Bootstrap!)</mark></li>
+						</ul>
+					</li>
+					<li>
+						Add iDangerous Swiper carousel <span class="label label-info">(Uses: HTML/CSS/JS maybe PHP)</span>
 						<ul>
 							<li>Using (<a href="http://www.idangero.us/swiper/#.VmsZbsrSjFY" target="_blank">Link <span class="fa fa-external-link"></span></a>) create a slider that shows 1 image at a time.</li>
 							<li>The slider should have 3 images of your choosing.</li>
@@ -45,18 +50,18 @@
 						</ul>
 					</li>
 					<li>
-						Table Header Hover Effect (Uses: CSS only!)
+						Table Header Hover Effect <span class="label label-info">(Uses: CSS only!)</span>
 						<ul>
-							<li>On hover of <u>all</u> table headers we would like to have the text color change to '#ff0000'.</li>
+							<li>You should create a custom CSS file to make these CSS changes.</li>
+							<li>On hover of <mark><u>all</u></mark> table headers we would like to have the text color change to '#ff0000'.</li>
 							<li>The color effect should have a fade of 0.3 seconds.</li>
 							<li>The table headers should alter cell color; every other header element should have '#e5e5e5' as their background color.</li>
-							<li>You should create a custom CSS file to make CSS changes.</li>
 						</ul>
 					</li>
 					<li>
-						Today's date in the nav (Uses: PHP/Bootstrap-HTML)
+						Today's date in the nav <span class="label label-info">(Uses: PHP/Bootstrap-HTML)</span>
 						<ul>
-							<li>Use the classes/main.php file to create the PHP code.</li>
+							<li>Use the <mark>classes/main.php</mark> file to create the PHP code.</li>
 							<li>Then use the view that has the navbar html and echo the date on the right side of the navbar.</li>
 							<li><mark>Hint:</mark> Review the code in the view you are working in on how to extract your data.</li>
 						</ul>
@@ -65,7 +70,7 @@
 						Debugging
 						<ul>
 							<li>The HTML has errors as well. Syntax errors are on the form and the main layout page. These bugs might manipulate your data giving you an unexpected result when you submit the data. The syntax errors are common mistakes of copy and pasting elements.</li>
-							<li>When you are done run the HTML through the W3C Validating service. The result should be 0 errors or warnings.</li>
+							<li>When you are done run the HTML through the <a href="https://validator.w3.org/#validate_by_upload" target="_blank">W3C Validating service <span class="fa fa-external-link"></span></a>. The result should be 0 errors or warnings.</li>
 						</ul>
 					</li>
 					<li>
@@ -85,7 +90,7 @@
 			<div class="panel-body">
 				<ol>
 					<li>
-						Validate and display the form data (Uses: HTML/CSS/JS)
+						Validate and display the form data <span class="label label-info">(Uses: HTML/CSS/JS)</span>
 						<ol>
 							<li>Each form field has specific requirements. Before the form can be submitted the values of the form elements must be validated to meet their requirements. You can use any method you would like to validate. Keep in mind that the validation must work in the latest versions of Firefox, Safari and Chrome.</li>
 							<li>On error there needs to be some sort of display to let the user know there is problems with their values. You can list all errors together or per element. It should only display problematic fields. Do not use: <mark>JS:alert();</mark></li>
@@ -94,7 +99,7 @@
 						</ol>
 					</li>
 					<li>
-						Ajax (Uses: HTML/CSS/JS/PHP)
+						Ajax <span class="label label-info">(Uses: HTML/CSS/JS/PHP)</span>
 						<ul>
 							<li>You will see that there is 2 fields that are not part of the form, <mark><u>ID</u></mark> and <mark><u>Created</u></mark>. These fields should never be generated client-side as that can pose a security risk. Instead we rely on server-side scripts to handle this for us. You will need to create the AJAX call as well as write the basic PHP in the components/ajax/ajax.php file. The PHP is very minor (you can use Google).</li>
 						</ul>
