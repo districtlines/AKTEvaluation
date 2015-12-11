@@ -101,7 +101,7 @@
 					<li>
 						Ajax <span class="label label-info">(Uses: HTML/CSS/JS/PHP)</span>
 						<ul>
-							<li>You will see that there is 2 fields that are not part of the form, <mark><u>ID</u></mark> and <mark><u>Created</u></mark>. These fields should never be generated client-side as that can pose a security risk. Instead we rely on server-side scripts to handle this for us. You will need to create the AJAX call as well as write the basic PHP in the components/ajax/ajax.php file. The PHP is very minor (you can use Google).</li>
+							<li>You will see that there are 2 fields that are not part of the form, <mark><u>ID</u></mark> and <mark><u>Created</u></mark>. These fields should never be generated client-side as that can pose a security risk. Instead we rely on server-side scripts to handle this for us. You will need to create the AJAX call as well as write the basic PHP in the components/ajax/ajax.php file. The PHP is very minor (you can use Google).</li>
 						</ul>
 					</li>
 				</ol>
