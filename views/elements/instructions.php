@@ -11,7 +11,7 @@
 					This evaluation is to see how well you can handle the tasks given to you as a front-end developer. At AKT we use Bootstrap CSS framework for almost all projects. So it's important that new developers have a strong understanding of the framework as well as traditional HTML/CSS/JS coding practices.
 				</p>
 				<p>
-					Treat this evaluation as a normal project you work on. Don't overthink the tasks and use the resources you have at hand. Don't be afraid to google or find information on the internet. Even the most experienced developers need a refresher.
+					Treat this evaluation as a normal project. Don't overthink the tasks and use the resources you have at hand. Don't be afraid to google or find information on the internet. Even the most experienced developers need a refresher.
 				</p>
 			</div>
 		</div>
