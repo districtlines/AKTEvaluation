@@ -19,7 +19,7 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-default" role="navigation">
+			<nav class="navbar navbar-default">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -51,7 +51,7 @@
 			(function($) {
 				$('[data-toggle="tooltip"]').tooltip();
 
-				/* JS can go HERE */
+				/* JS can go HERE or you can create and include a file */
 
 			})(jQuery);
 		</script>
