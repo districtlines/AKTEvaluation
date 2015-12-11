@@ -63,7 +63,7 @@
 						<ul>
 							<li>Use the <mark>classes/main.php</mark> file to create the PHP code.</li>
 							<li>Then use the view that has the navbar html and echo the date on the right side of the navbar.</li>
-							<li><mark>Hint:</mark> Review the code in the view you are working in on how to extract your data.</li>
+							<li><mark>Hint:</mark> The view has an example of extracting the PHP data into the view.</li>
 						</ul>
 					</li>
 					<li>
