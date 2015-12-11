@@ -2,6 +2,19 @@
 	<div class="container">
 		<h1>Instructions!</h1>
 		<p>What you need to do:</p>
+		<div class="panel panel-info">
+			<div class="panel-heading">
+				<h5>Intro</h5>
+			</div>
+			<div class="panel-body">
+				<p>
+					This evaluation is to see how well you can handle the tasks given to you as a front-end developer. At AKT we use Bootstrap CSS framework for almost all projects. So it's important that new developers have a strong understanding of the framework as well as traditional HTML/CSS/JS coding practices.
+				</p>
+				<p>
+					Treat this evaluation as a normal project you work on. Don't overthink the tasks and use the resources you have at hand. Don't be afraid to google or find information on the internet. Even the most experienced developers need a refresher.
+				</p>
+			</div>
+		</div>
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h5>Layout</h5>
@@ -12,14 +25,14 @@
 					<li>
 						On Mobile Devices (bootstrap xs size), adjust the form to be more compact. (Uses: HTML/CSS)
 						<ul>
-							<li>Put <em>city</em>, <em>state/province</em> and <em>zip</em> all on the same line. Without adding any more form elements. It should be pure CSS with styles and classes and structural HTML elements.</li>
+							<li>Put <mark>city</mark>, <mark>state/province</mark> and <mark>zip</mark> all on the same line. Without adding any more form elements. It should be pure CSS with styles and classes and structural HTML elements.</li>
 						</ul>
 					</li>
-					<li>The Stored Data table is breaking the layout on Mobile. Make the table responsive. <em>(Remember, Bootstrap!)</em></li>
+					<li>The Stored Data table is breaking the layout on Mobile. Make the table responsive. <mark>(Remember, Bootstrap!)</mark></li>
 					<li>
 						Add iDangerous Swiper carousel (Uses: HTML/CSS/JS maybe PHP)
 						<ul>
-							<li>Using (http://www.idangero.us/swiper/#.VmsZbsrSjFY) create a slider that shows 1 image at a time.</li>
+							<li>Using (<a href="http://www.idangero.us/swiper/#.VmsZbsrSjFY" target="_blank">Link <span class="fa fa-external-link"></span></a>) create a slider that shows 1 image at a time.</li>
 							<li>The slider should have 3 images of your choosing.</li>
 							<li>If you want to use PHP to generate the markup you can.</li>
 							<li>The size of the slider does not matter. Make sure it does not break the Bootstrap grid.</li>
@@ -44,7 +57,7 @@
 					<li>
 						Clean Code
 						<ul>
-							<li>At AKT we are sticklers of clean code. Since the projects you may be working on will be shared within the whole team, it's important to follow our normal standards and practices when writing code. You can view our Bible over at this GitHub repo (https://github.com/districtlines/AKTCodingStandards).</li>
+							<li>At AKT we are sticklers of clean code. Since the projects you may be working on will be shared within the whole team, it's important to follow our normal standards and practices when writing code. You can view our Bible over at this GitHub repo (<a href="https://github.com/districtlines/AKTCodingStandards" target="_blank">Link <span class="fa fa-external-link"></span></a>).</li>
 						</ul>
 					</li>
 				</ol>
@@ -61,15 +74,15 @@
 						Validate and display the form data (Uses: HTML/CSS/JS)
 						<ol>
 							<li>Each form field has specific requirements. Before the form can be submitted the values of the form elements must be validated to meet their requirements. You can use any method you would like to validate. Keep in mind that the validation must work in the latest versions of Firefox, Safari and Chrome.</li>
-							<li>On error there needs to be some sort of display to let the user know there is problems with their values. You can list all errors together or per element. It should only display problematic fields. Do not use: <em>JS:alert();</em></li>
-							<li>If the user data passes the validation, have the data display in the table below the form. <em>See note about AJAX below</em></li>
+							<li>On error there needs to be some sort of display to let the user know there is problems with their values. You can list all errors together or per element. It should only display problematic fields. Do not use: <mark>JS:alert();</mark></li>
+							<li>If the user data passes the validation, have the data display in the table below the form. <mark>See note about AJAX below</mark></li>
 							<li>We are not expecting this data to be saved to any type of DB. It is purely a front-end form.</li>
 						</ol>
 					</li>
 					<li>
 						Ajax (Uses: HTML/CSS/JS/PHP)
 						<ul>
-							<li>You will see that there is 2 fields that are not part of the form, <em><u>ID</u></em> and <em><u>Created</u></em>. These fields should never be generated client-side as that can pose a security risk. Instead we rely on server-side scripts to handle this for us. You will need to create the AJAX call as well as write the basic PHP in the components/ajax/ajax.php file. The PHP is very minor (you can use Google).</li>
+							<li>You will see that there is 2 fields that are not part of the form, <mark><u>ID</u></mark> and <mark><u>Created</u></mark>. These fields should never be generated client-side as that can pose a security risk. Instead we rely on server-side scripts to handle this for us. You will need to create the AJAX call as well as write the basic PHP in the components/ajax/ajax.php file. The PHP is very minor (you can use Google).</li>
 						</ul>
 					</li>
 				</ol>

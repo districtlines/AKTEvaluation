@@ -34,7 +34,18 @@
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse navbar-ex1-collapse">
 					<ul class="nav navbar-nav">
-						<li class=""><a href="#">Instructions</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Instructions <b class="caret"></b></a>
+							<ul class="dropdown-menu" role="menu">
+								<li><a href="#">Intro</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">layout</a></li>
+								<li><a href="#">Form Functionality</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Bonus Points</a></li>
+								<li><a href="#">Im Done</a></li>
+							</ul>
+						</li>
 						<li class=""><a href="#">Form</a></li>
 						<li class=""><a href="#">Table</a></li>
 					</ul>
